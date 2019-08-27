@@ -1,0 +1,13 @@
+name: "GitHub Action template for Go"
+description: "GitHub Action template for Go"
+author: 'Galo Navarro <anglorvaroa@gmail.com>'
+inputs: 
+  my_property:
+    description: "My custom input property"
+    default: "some_default_value"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: edit
+  color: green

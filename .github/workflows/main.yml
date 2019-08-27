@@ -1,0 +1,7 @@
+name: Say Hello
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: srvaroa/github-actions-go-template@master
